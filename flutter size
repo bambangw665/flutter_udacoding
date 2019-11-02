@@ -11,8 +11,8 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.red[800], // add background red
-          leading: Icon(Icons.home),
-          title: Text('Flutter Basic')
+          leading: Icon(Icons.home), // add leanding icons
+          title: Text('Flutter Basic') // add title in flutter
         ),
 
 
