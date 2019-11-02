@@ -23,8 +23,8 @@ class MyApp extends StatelessWidget {
           child: Card(
             child: Column(
               children: <Widget>[
-                Image.network('https://flutter.io/images/homepage/header-illustration.png'),
-                Text('Belajar Flutter')
+                Image.network('https://flutter.io/images/homepage/header-illustration.png'), // image link
+                Text('Belajar Flutter') // add image title
               ],
             ),
           ),
