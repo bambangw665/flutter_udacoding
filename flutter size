@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.red[800],
+          backgroundColor: Colors.red[800], // add background red
           leading: Icon(Icons.home),
           title: Text('Flutter Basic')
         ),
